@@ -15,6 +15,10 @@ For each model, we'll look at the Balanced Accuracy Score, as well as the precis
 
 
 ## Results
+#### RandomOverSampler
+![randomoversampling](images/randomoversampling.png)
+
+
 
 ## Summary 
 
