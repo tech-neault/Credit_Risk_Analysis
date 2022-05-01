@@ -15,7 +15,7 @@ For each model, we'll look at the Balanced Accuracy Score, as well as the precis
 
 
 ## Results
-#### RandomOverSampler
+### RandomOverSampler
 ![ROS](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/randomoversampling.png)
 
 
@@ -31,8 +31,10 @@ Balanced Accuracy Score: 0.648767580808264
 - precision: 1.00 (perfect)
 - recall: 0.69 (good)
 
-#### SMOTE
+### SMOTE
 ![SMT](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/SMOTEoversampling.png)
+
+
 Balanced Accuracy Score: 0.6159507435206336
 
 <i>High Risk Performance:</i>
@@ -45,8 +47,10 @@ Balanced Accuracy Score: 0.6159507435206336
 - precision: 1.00 (perfect)
 - recall: 0.65 (good)
 
-#### ClusterCentroids
+### ClusterCentroids
 ![CC](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
+
+
 Balanced Accuracy Score: 0.6159507435206336
 
 <i>High Risk Performance:</i>
@@ -59,8 +63,10 @@ Balanced Accuracy Score: 0.6159507435206336
 - precision: 1.00 (perfect)
 - recall: 0.46 (good)
 
-#### SMOTEENN
+### SMOTEENN
 ![SMTNN](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/SMOTEENNsampling.png)
+
+
 Balanced Accuracy Score: 0.5270606459826519
 
 <i>High Risk Performance:</i>
@@ -73,8 +79,10 @@ Balanced Accuracy Score: 0.5270606459826519
 - precision: 1.00 (perfect)
 - recall: 0.58 
 
-#### BalancedRandomForestClassifier
+### BalancedRandomForestClassifier
 ![BRFC](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassification.png)
+
+
 Balanced Accuracy Score: 0.7877672625306695
 
 <i>High Risk Performance:</i>
@@ -87,8 +95,10 @@ Balanced Accuracy Score: 0.7877672625306695
 - precision: 1.00 (perfect)
 - recall: 0.91 (excellent)
 
-#### EasyEnsembleClassifier
+### EasyEnsembleClassifier
 ![EEC](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleClassifier.png)
+
+
 Balanced Accuracy Score: 0.925427358175101
 
 <i>High Risk Performance:</i>
@@ -103,6 +113,5 @@ Balanced Accuracy Score: 0.925427358175101
 
 
 ## Summary 
-
-
+When evaluating these models' performance, we can consider the F1 score (a summary statistic of precision and recall). Based on the F1 scores found during this analysis, the best performing was the EasyEnsembleClassifier with an F1 score of 0.97. The BalancedRandomForestClassifier was a close second with an F1 score of 0.95. The worst performing model was ClusterCentroids with an F1 score of just 0.62. Therefore, we can confidently recommend use of the EasyEnsemble or BalancedRandomForest Classification models for our client. 
 
