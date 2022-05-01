@@ -16,9 +16,22 @@ For each model, we'll look at the Balanced Accuracy Score, as well as the precis
 
 ## Results
 #### RandomOverSampler
-![randomoversampling](images/randomoversampling.png)
+![ROS](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/randomoversampling.png)
 
+#### SMOTE
+![SMT](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/SMOTEoversampling.png)
 
+#### ClusterCentroids
+![CC](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
+
+#### SMOTEENN
+![SMTNN](https://github.com/tech-neault/Credit_Risk_Analysis/blob/main/Images/SMOTEENNsampling.png)
+
+#### BalancedRandomForestClassifier
+![BRFC]()
+
+#### EasyEnsembleClassifier
+![EEC]()
 
 ## Summary 
 
